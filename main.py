@@ -40,6 +40,11 @@ def main():
         for obj in drawable:
             obj.draw(screen)
 
+        for asteroid in asteroids:
+            if asteroid.collisions(player):
+                print("Game over!")
+                sys.exit('You crashed bro')
+
         pygame.display.flip()
         
 
