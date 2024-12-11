@@ -22,8 +22,10 @@ A fun little pygame program to help improve my python skills. Why not Asteroids?
 
 ## Running the Project
 
+Just two commands to run the project:
+
 -   `source venv/bin/activate`
--   `python3 main.py`
+-   `python main.py`
 
 ## Gameplay Screenshots
 
