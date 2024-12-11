@@ -1,5 +1,7 @@
 # Asteroids
 
+[![The History of Asteroids](img/Screenshot-Asteroids.png 'Link to The History of Asteroids')](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
+
 ## Installation
 
 -   [pygame](https://www.pygame.org/news)
