@@ -1,7 +1,8 @@
 # Asteroids
 
 Not my video, but found it to be a fun watch on the history of Asteroids.
-[![The History of Asteroids](img/Screenshot-Asteroids.png?raw=true 'Link to The History of Asteroids')](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
+
+[![The History of Asteroids](img/Screenshot-Asteroids.png?=400x295 'Link to The History of Asteroids')](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
 
 ## Installation
 
