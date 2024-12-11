@@ -37,4 +37,4 @@ A fun little pygame program to help improve my python skills. Why not Asteroids?
 
 Not my video, but found it to be a fun watch on the history of Asteroids.
 
-[![The History of Asteroids](img/Screenshot-Asteroids.png?=400 'Link to The History of Asteroids')](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7){:target="_blank"}
+[![The History of Asteroids](img/Screenshot-Asteroids.png?=400 'Link to The History of Asteroids')](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)[:target="_blank"]
