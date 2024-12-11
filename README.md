@@ -9,10 +9,10 @@ A fun little pygame program to help improve my python skills. Why not Asteroids?
 -   &nbsp;Sets up a clock to manage game speed&nbsp;
 -   &nbsp;Creates the game window using screen dimensions&nbsp;
 -   &nbsp;Creates different groups to manage sprites (objects) in the game:&nbsp;
-    -- &nbsp;updatable: contains objects that need to be updated each frame&nbsp;
-    -- &nbsp;drawable: contains objects that need to be drawn on the screen&nbsp;
-    -- &nbsp;asteroids: contains asteroid objects&nbsp;
-    -- &nbsp;shots: contains player-fired shots&nbsp;
+    -   &nbsp;updatable: contains objects that need to be updated each frame&nbsp;
+    -   &nbsp;drawable: contains objects that need to be drawn on the screen&nbsp;
+    -   &nbsp;asteroids: contains asteroid objects&nbsp;
+    -   &nbsp;shots: contains player-fired shots&nbsp;
 -   &nbsp;Many more... Go play the game&nbsp;
 
 ## Installation
