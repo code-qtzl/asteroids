@@ -22,10 +22,11 @@ A fun little pygame program to help improve my python skills. Why not Asteroids?
 
 ## Running the Project
 
-Just two commands to run the project:
-
--   `source venv/bin/activate`
--   `python main.py`
+```
+cd asteroids
+source venv/bin/activate
+python main.py
+```
 
 ## Gameplay Screenshots
 
