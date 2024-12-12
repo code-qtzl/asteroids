@@ -15,10 +15,15 @@ A fun little pygame program to help improve my python skills. Why not Asteroids?
     -   &nbsp;shots: contains player-fired shots&nbsp;
 -   &nbsp;Many more... Go play the game&nbsp;
 
-## Installation
+## Prerequisite
 
--   [pygame](https://www.pygame.org/news)
--   [venv virtual environments](https://docs.python.org/3/library/venv.html)
+1.  [pygame](https://www.pygame.org/news):
+
+-   `python3 -m pip install -U pygame==2.6.0`
+
+2.  [venv virtual environments](https://docs.python.org/3/library/venv.html):
+
+-   `python -m venv C:\path\to\new\virtual\environment`
 
 ## Running the Project
 
