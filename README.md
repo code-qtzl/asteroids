@@ -36,16 +36,18 @@ python main.py
 
 ## Gameplay Screenshots
 
-![Gameplay Intro](img/Screenshot-Gameplay-1.png?raw=true)
+<img src="img/Screenshot-Gameplay-1.png" alt="The History of Asteroids"
+     width="700" height="432">
 
-![Gameplay Shooting](img/Screenshot-Gameplay-2.png?raw=true)
+<img src="img/Screenshot-Gameplay-2.png" alt="The History of Asteroids"
+     width="700" height="432">
 
-![Ending Game](img/Screenshot-Gameplay-3.png?raw=true)
+<img src="img/Screenshot-Gameplay-3.png" alt="The History of Asteroids"
+     width="850" height="339">
 
-## The History of Asteroids
+## [The History of Asteroids](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
 
 Not my video, but found it to be a fun watch on the history of Asteroids.
 
-[The History of Asteroids](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
 <img src="img/Screenshot-Asteroids.png" alt="The History of Asteroids"
      width="400" height="295">
