@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white)
+
 # Asteroids
 
 A fun little [pygame](https://www.pygame.org/news) program to help improve my python skills. Why not Asteroids?!
