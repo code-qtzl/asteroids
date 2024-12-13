@@ -43,7 +43,7 @@ python main.py
      width="700" height="432">
 
 <img src="img/Screenshot-Gameplay-3.png" alt="The History of Asteroids"
-     width="850" height="339">
+     width="600" height="239">
 
 ## [The History of Asteroids](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
 
