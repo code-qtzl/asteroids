@@ -1,6 +1,6 @@
 # Asteroids
 
-A fun little pygame program to help improve my python skills. Why not Asteroids?!
+A fun little [pygame](https://www.pygame.org/news) program to help improve my python skills. Why not Asteroids?!
 
 ### Here's a break down of the project.
 
@@ -19,11 +19,11 @@ A fun little pygame program to help improve my python skills. Why not Asteroids?
 
 1.  [pygame](https://www.pygame.org/news):
 
--   `python3 -m pip install -U pygame==2.6.0`
+    -   `python3 -m pip install -U pygame==2.6.0`
 
 2.  [venv virtual environments](https://docs.python.org/3/library/venv.html):
 
--   `python -m venv C:\path\to\new\virtual\environment`
+    -   `python -m venv C:\path\to\new\virtual\environment`
 
 ## Running the Project
 
@@ -46,4 +46,6 @@ python main.py
 
 Not my video, but found it to be a fun watch on the history of Asteroids.
 
-[![The History of Asteroids](img/Screenshot-Asteroids.png?=400 'Link to The History of Asteroids')](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
+[The History of Asteroids](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
+<img src="img/Screenshot-Asteroids.png" alt="The History of Asteroids"
+     width="400" height="295">
