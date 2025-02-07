@@ -38,10 +38,13 @@ python main.py
 
 ## Gameplay Screenshots
 
-<img src="img/Screenshot-Gameplay-1.png" alt="The History of Asteroids"
+<img src="img/Screenshot-Gameplay-1.png" alt="Game Play 1"
      width="700" height="432">
 
-<img src="img/Screenshot-Gameplay-2.png" alt="The History of Asteroids"
+<img src="img/Screenshot-Gameplay-2.png" alt="Game Play: "
+     width="700" height="432">
+
+<img src="img/Screenshot-Gameplay-4.png" alt="Game Play: You Lose"
      width="700" height="432">
 
 <img src="img/Screenshot-Gameplay-3.png" alt="The History of Asteroids"
