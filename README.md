@@ -4,18 +4,13 @@
 
 A fun little [pygame](https://www.pygame.org/news) program to help improve my python skills. Why not Asteroids?!
 
-### Here's a break down of the project.
+## Features
 
--   &nbsp;main.py Initializes pygame&nbsp;
--   &nbsp;Prints game configurations (screen width/height) and a message&nbsp;
--   &nbsp;Sets up a clock to manage game speed&nbsp;
--   &nbsp;Creates the game window using screen dimensions&nbsp;
--   &nbsp;Creates different groups to manage sprites (objects) in the game:&nbsp;
-    -   &nbsp;updatable: contains objects that need to be updated each frame&nbsp;
-    -   &nbsp;drawable: contains objects that need to be drawn on the screen&nbsp;
-    -   &nbsp;asteroids: contains asteroid objects&nbsp;
-    -   &nbsp;shots: contains player-fired shots&nbsp;
--   &nbsp;Many more... Go play the game&nbsp;
+-   **Gameplay:**  Players control a spaceship, shooting asteroids to survive. The game includes game over and reset functionality.
+-   **Asteroids:**  Asteroids of different sizes spawn randomly and split when shot.
+-   **Player Control:**  Players can rotate and move their spaceship, and shoot projectiles.
+-   **Pygame Implementation:**  The code utilizes Pygame for graphics, game loop management, and input handling.
+-   **Modular Structure:**  The project is well-organized into different Python files, each responsible for specific game elements like player, asteroid, asteroidfield, and shot.
 
 ## Prerequisite
 
