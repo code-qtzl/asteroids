@@ -6,11 +6,10 @@ A fun little [pygame](https://www.pygame.org/news) program to help improve my py
 
 ## Features
 
--   **Gameplay:**  Players control a spaceship, shooting asteroids to survive. The game includes game over and reset functionality.
--   **Asteroids:**  Asteroids of different sizes spawn randomly and split when shot.
--   **Player Control:**  Players can rotate and move their spaceship, and shoot projectiles.
--   **Pygame Implementation:**  The code utilizes Pygame for graphics, game loop management, and input handling.
--   **Modular Structure:**  The project is well-organized into different Python files, each responsible for specific game elements like player, asteroid, asteroidfield, and shot.
+-   **Pygame:** pygame's built in sprite groups `pygame.sprite.Group()` for managing game objects
+-   **List:** List for array operations
+-   **Objects:** Vector2 objects from pygame for position and velocity
+    Classes with inheritance (like `CircleShape` as the base class for `Player`, `Shot`, and `Asteroid`)
 
 ## Prerequisite
 
