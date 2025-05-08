@@ -6,10 +6,24 @@ A fun little [pygame](https://www.pygame.org/news) program to help improve my py
 
 ## Features
 
--   **Pygame:** pygame's built in sprite groups `pygame.sprite.Group()` for managing game objects
+### Pygame Objects
+
+-   **Clock** (`pygame.time.Clock`): Controls frame rate and game timing
+-   **Sprite Groups** (`pygame.sprite.Group`): Manages game objects
+    -   Updatable sprites
+    -   Drawable sprites
+    -   Asteroid sprites
+    -   Shot sprites
 -   **List:** List for array operations
--   **Objects:** Vector2 objects from pygame for position and velocity
-    Classes with inheritance (like `CircleShape` as the base class for `Player`, `Shot`, and `Asteroid`)
+
+### Game Architecture
+
+-   **Class Inheritance**: Base `CircleShape` class extended by:
+    -   `Player`
+    -   `Shot`
+    -   `Asteroid`
+-   **Event System**: Handles player input and game events
+-   **Collision Detection**: Manages object interactions
 
 ## Prerequisite
 
