@@ -55,11 +55,13 @@ python main.py
 
 ## ✨ Gameplay
 
-|                                                                                                                                               |                                                                                                                                                                                                                                                 |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Gameplay** <br>                                                                                                                             | <img src="img/Screenshot-Gameplay-1.png" alt="Game Play 1" width="700" height="432"> <img src="https://raw.githubusercontent.com/code-qtzl/asteroids/refs/heads/main/img/Screenshot-Gameplay-2.png" alt="Game Play 2" width="700" height="432"> |
-| **Gameplay** <br> Messed up? We all do it. Smash that reset button and pretend it never happened.                                             | <img src="img/Screenshot-Gameplay-4.png" alt="Game Play: You Lose" width="700" height="432">                                                                                                                                                    |
-| **Logs** <br> - Pygame's version. <br> - Greetings from the pygame community. <br> - resolution of the Pygame window <br> - IMK-related logs. | <img src="img/Screenshot-Gameplay-3.png" alt="The History of Asteroids" width="600" height="239">                                                                                                                                               |
+<div align="center">
+<img src="img/gameplay.png" alt="Game Play" width="700" height="432"> 
+<p>Gameplay</p>
+<br/>
+<img src="img/highscore.png" alt="Game Play" width="700" height="432"> 
+<p>Highscore</p>
+</div>
 
 ## [The History of Asteroids](https://youtu.be/JiGjU-NnkfE?si=2JI7ip0Z0hGDEmD7)
 
