@@ -24,6 +24,10 @@ A fun little [pygame](https://www.pygame.org/news) program to help improve my py
     -   `Asteroid`
 -   **Event System**: Handles player input and game events
 -   **Collision Detection**: Manages object interactions
+-   **Score System**:
+    -   [AWS DynamoDB](https://docs.aws.amazon.com/dynamodb/)
+    -   Local display of current and high scores during gameplay
+    -   Scores stored by unique hostname/username
 
 ## Prerequisite
 
@@ -31,7 +35,12 @@ A fun little [pygame](https://www.pygame.org/news) program to help improve my py
 
     -   `python3 -m pip install -U pygame==2.6.0`
 
-2.  [venv virtual environments](https://docs.python.org/3/library/venv.html):
+2.  [AWS SDK (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html):
+
+    -   Included in requirements.txt
+    -   AWS credentials required for high score feature
+
+3.  [venv virtual environments](https://docs.python.org/3/library/venv.html):
 
     -   `python -m venv C:\path\to\new\virtual\environment`
 
