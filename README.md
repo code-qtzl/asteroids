@@ -22,12 +22,23 @@ A fun little [pygame](https://www.pygame.org/news) program to help improve my py
     -   `Player`
     -   `Shot`
     -   `Asteroid`
+    -   `Alien`
 -   **Event System**: Handles player input and game events
 -   **Collision Detection**: Manages object interactions
 -   **Score System**:
     -   [AWS DynamoDB](https://docs.aws.amazon.com/dynamodb/)
     -   Local display of current and high scores during gameplay
     -   Scores stored by unique hostname/username
+
+## Game Controls
+
+| Key             | Action         |
+| --------------- | -------------- |
+| ↑ (Up Arrow)    | Thrust Forward |
+| ← (Left Arrow)  | Rotate Left    |
+| → (Right Arrow) | Rotate Right   |
+| Space           | Fire           |
+| P (Key)         | Pause Game     |
 
 ## Prerequisite
 
