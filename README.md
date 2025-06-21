@@ -32,13 +32,14 @@ A fun little [pygame](https://www.pygame.org/news) program to help improve my py
 
 ## Game Controls
 
-| Key             | Action         |
-| --------------- | -------------- |
-| ↑ (Up Arrow)    | Thrust Forward |
-| ← (Left Arrow)  | Rotate Left    |
-| → (Right Arrow) | Rotate Right   |
-| Space           | Fire           |
-| P (Key)         | Pause Game     |
+| Key             | Action          |
+| --------------- | --------------- |
+| ↑ (Up Arrow)    | Thrust Forward  |
+| ↓ (Down Arrow)  | Thrust Backward |
+| ← (Left Arrow)  | Rotate Left     |
+| → (Right Arrow) | Rotate Right    |
+| Space           | Fire            |
+| P               | Pause Game      |
 
 ## Prerequisite
 
