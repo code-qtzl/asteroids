@@ -68,10 +68,10 @@ python main.py
 ## ✨ Gameplay
 
 <div align="center">
-<img src="img/gameplay.png" alt="Game Play" width="700" height="432"> 
+<img src="img/shot1.png" alt="Game Play" width="700" height="432"> 
 <p>Gameplay</p>
 <br/>
-<img src="img/highscore.png" alt="Game Play" width="700" height="432"> 
+<img src="img/shot2.png" alt="Game Play" width="700" height="432"> 
 <p>Highscore</p>
 </div>
 
