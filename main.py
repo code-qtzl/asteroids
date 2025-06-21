@@ -51,6 +51,7 @@ def main():
 
     dt = 0
     game_over = False
+    game_paused = False  # Add pause state
     score = 0  # Initialize score counter
     high_score = high_score_manager.get_high_score() if high_score_enabled else 0
     alien_spawned = False  # Track if alien has been spawned for this score threshold
@@ -59,6 +60,14 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_p and not game_over:  # Press 'P' to pause (only when game is running)
+                    game_paused = not game_paused  # Toggle pause, but we'll override this below
+                    game_paused = True  # Force pause on (can only unpause with spacebar)
+                    print("Game Paused! Press SPACEBAR to continue.")
+                elif event.key == pygame.K_SPACE and game_paused:  # Press SPACEBAR to unpause
+                    game_paused = False
+                    print("Game Unpaused!")
             if event.type == pygame.MOUSEBUTTONDOWN:  # Mouse click event
                 if game_over and reset_button.is_clicked(event.pos):
                     # Reset the game
@@ -79,12 +88,13 @@ def main():
                     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
                     AsteroidField()
                     game_over = False
+                    game_paused = False  # Reset pause state
                     score = 0  # Reset score when game is reset
                     alien_spawned = False  # Reset alien spawn flag
 
         screen.fill("#0d1117")
 
-        if not game_over:  # Only update if the game is running
+        if not game_over and not game_paused:  # Only update if the game is running and not paused
             # Spawn alien ship when score reaches 25
             if score >= ALIEN_SPAWN_SCORE and not alien_spawned and len(alien_ships) == 0:
                 alien = AlienShip()
@@ -96,9 +106,6 @@ def main():
                     obj.update(dt, player.position, alien_shots, asteroids)
                 else:
                     obj.update(dt)
-
-            for obj in drawable:
-                obj.draw(screen)
 
             # Check collisions
             for asteroid in asteroids:
@@ -150,9 +157,18 @@ def main():
                     if alien_shot.collides_with(asteroid):
                         asteroid.split()
                         alien_shot.kill()
-            
+
+        # Always draw everything (even when paused)
+        for obj in drawable:
+            obj.draw(screen)
+        
+        if not game_over:
             # Display score and high score
             draw_score(screen, score, high_score if high_score_enabled else None)
+            
+            # Display pause message if paused
+            if game_paused:
+                draw_pause_message(screen)
         else:
             draw_game_over(screen)
             reset_button.draw(screen)
@@ -202,6 +218,25 @@ def draw_final_score(screen, score, high_score=None):
         # Position high score text above the reset button
         high_score_rect = high_score_text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
         screen.blit(high_score_text, high_score_rect)
+
+def draw_pause_message(screen):
+    # Draw semi-transparent overlay
+    overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+    overlay.set_alpha(128)  # Semi-transparent
+    overlay.fill((0, 0, 0))  # Black overlay
+    screen.blit(overlay, (0, 0))
+    
+    # Draw pause text
+    font = pygame.font.Font(None, 72)
+    pause_text = font.render("PAUSED", True, "#39d353")
+    pause_rect = pause_text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 - 50))
+    screen.blit(pause_text, pause_rect)
+    
+    # Draw instruction text
+    instruction_font = pygame.font.Font(None, 36)
+    instruction_text = instruction_font.render("Press SPACEBAR to continue", True, "white")
+    instruction_rect = instruction_text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 20))
+    screen.blit(instruction_text, instruction_rect)
 
 if __name__ == "__main__":
     main()
