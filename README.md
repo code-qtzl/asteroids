@@ -2,6 +2,10 @@
 
 # Asteroids
 
+<div align="left">
+  <img src="img/astroid.png" alt="asteroids banner" width="300"/>
+</div>
+
 A fun little [pygame](https://www.pygame.org/news) program to help improve my python skills. Why not Asteroids?!
 
 ## Features
