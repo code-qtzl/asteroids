@@ -1,10 +1,10 @@
-![Python](https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=white)
-
 # Asteroids
 
 <div align="left">
   <img src="img/astroid.png" alt="asteroids banner" width="300"/>
 </div>
+
+![Python](https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=white)
 
 A fun little [pygame](https://www.pygame.org/news) program to help improve my python skills. Why not Asteroids?!
 
